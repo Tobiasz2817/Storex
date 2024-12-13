@@ -4,8 +4,8 @@ using System.Security.Cryptography;
 
 namespace Storex {
     public static class StorexEncrypter {
-        const string Key = "WpijBKEziiCSd1aXhmme+4Y6m7h250idKlFST+n9O5w=";
-        const string Iv = "KzUyKj+AOnUctKAqAwNwfQ==";
+        const string Key = "xxxxxxxxxxxxxxxx";
+        const string Iv = "yyyyyyyy";
         
         public static string Encrypt(string plainText) {
             using var aes = Aes.Create();
